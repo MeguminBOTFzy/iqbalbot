@@ -1,0 +1,29 @@
+{
+  "name": "Bot Wa KurrXd",
+    "logo": "https://telegra.ph/file/4e7512066a471b7a642d0.jpg",
+    "description": "SUBSCRIBE KurrXd OFFICIAL.",
+  "keywords": ["nodejs", "bot", "whatsapp bot"]
+    "repository": "https://github.com/KurrXd/KurzBotAssistan",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+"url": "https://github.com/cronvel/terminal-kit.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
