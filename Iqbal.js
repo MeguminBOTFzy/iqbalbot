@@ -276,7 +276,7 @@ const command = body.replace(prefix, '').trim().split(/ +/).shift().toLowerCase(
 const q = args.join(' ')
 const arg = budy.slice(command.length + 2, budy.length)
 const isCmd = body.startsWith(prefix)
-const Owner = ['6281333782061@s.whatsapp.net','994403792696@s.whatsapp.net','48459065026@s.whatsapp.net','6281259909513@s.whatsapp.net','6289512871985@s.whatsapp.net','447451215242@s.whatsapp.net','447441417460@s.whatsapp.net','380943043840@s.whatsapp.net','6289512871985@s.whatsapp.net','6287819948818@s.whatsapp.net','994406309372@s.whatsapp.net','48699527399@s.whatsapp.net','994405054360@s.whatsapp.net', iqbl.user.jid]
+const Owner = ['6281333782061@s.whatsapp.net','994403792696@s.whatsapp.net','994407576115@s.whatsapp.net','6281259909513@s.whatsapp.net','6289512871985@s.whatsapp.net','447451215242@s.whatsapp.net','447441417460@s.whatsapp.net','380943043840@s.whatsapp.net','6289512871985@s.whatsapp.net','6287819948818@s.whatsapp.net','994406309372@s.whatsapp.net','48699527399@s.whatsapp.net','994405054360@s.whatsapp.net', iqbl.user.jid]
 const ownerNumber = [`6281333782061@s.whatsapp.net`]
 const botNumber = iqbl.user.jid
 
